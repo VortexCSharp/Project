@@ -3,4 +3,4 @@
 -HTML e CSS
 -JavaScript
 -Figma
--Git e Githun
+-Git e Github
