@@ -5,23 +5,23 @@
 }
 
 :root {
-    --text-color: white;
-    --bg-url: url(./Imagens/Nebula.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color:rgba(255, 255, 255, 0.1);
+    --text-color: rgb(255, 255, 255);
+    --bg-url: url(./Imagens/aurora.jpg);
+    --stroke-color: rgba(22, 22, 22, 0.5);
+    --surface-color:rgba(0, 0, 0, 0.1);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-image: url(./Imagens/Nebula.png)
+    --highlight-color: rgba(44, 44, 44, 0.2);
+    --switch-image: url(./Imagens/lua.png)
 }
 
 .luz {
-    --text-color: black;
-    --bg-url: url(./Imagens/aurora.jpg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.2);
-    --highlight-color: rgba(0, 0, 0, 0.2);
-    --switch-image: url(./Imagens/aurora.png)
+    --text-color: rgb(255, 255, 255);
+    --bg-url: url(./Imagens/Nebula.jpg);
+    --stroke-color: rgba(151, 151, 151, 0.5);
+    --surface-color: rgba(226, 226, 226, 0.05);
+    --surface-color-hover: rgba(206, 206, 206, 0.2);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --switch-image: url(./Imagens/sol.png)
 }
 body {
     background-image: var(--bg-url);
