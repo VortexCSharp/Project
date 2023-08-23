@@ -9,7 +9,8 @@ if (html.classList.contains('luz')) {
     img.src = "./Imagens/m3touri.jpg"
 }
 else img.src = "./Imagens/m8comp.jpg"
-
-
-
 }
+document.body.style.overflow = "hidden";
+document.addEventListener("wheel", function(event) {
+    event.preventDefault();
+  });
